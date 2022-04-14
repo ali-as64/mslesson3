@@ -12,7 +12,7 @@ jobs:
       - run:
           name: install dependencies
           command: |
-          python3 -m venv venv
+            Spython3 -m venv venv
             - venv/bin/activate
             make install
       - run:
